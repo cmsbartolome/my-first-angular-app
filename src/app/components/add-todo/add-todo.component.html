@@ -1,0 +1,11 @@
+<div>
+    <div class="card mt-3 mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Add Todo</h5>
+            <form  (ngSubmit)="onSubmit()">
+                <input type="text" name="title" [(ngModel)]="title" class="form-control" placeholder="Add todo">
+                <button type="submit" class="btn btn-success btn-block mt-2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
